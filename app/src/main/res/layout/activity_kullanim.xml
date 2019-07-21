@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Seslendirmek istediğiniz cümlenin sonuna nokta koyarsanız seslendirme işlemi başlayacaktır." />
+
+        <TextView
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Yazının tamamını silmek için iki virgül koymanız yeterli." />
+
+</LinearLayout>
